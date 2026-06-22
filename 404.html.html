@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 — Metro Sul</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: var(--space-xl);
+        }
+        .error-code {
+            font-family: var(--font-mono);
+            font-size: clamp(4rem, 10vw, 8rem);
+            color: var(--blue);
+            font-weight: 700;
+            line-height: 1;
+        }
+        .error-message {
+            font-size: clamp(1.2rem, 2vw, 1.8rem);
+            color: var(--steel);
+            margin: var(--space-md) 0;
+        }
+        .error-link {
+            color: var(--blue);
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        .error-link:hover {
+            color: var(--plasma);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="error-code">404</div>
+        <p class="error-message">Signal lost — this page doesn't exist.</p>
+        <a href="/" class="error-link">← Return to Transmission</a>
+    </div>
+</body>
+</html>
